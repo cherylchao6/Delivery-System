@@ -20,7 +20,9 @@ The A* algorithm, which utilizes Euclidean distance as a heuristic, is employed 
 
 ### Challenge Handling
 
-Deciding the nearest truck for a delivery involves calculating distances from potential delivery points on their routes. For example, delivery at 7F, accessible by both the green and blue routes, will depend on which truck has more space. For remote points like 8P, precise calculations are necessary to determine the closest approach while avoiding obstacles.
+- Deciding the nearest truck for a delivery involves calculating distances from potential delivery points on their routes. For example, delivery at 7F, accessible by both the green and blue routes, will depend on which truck has more space. For remote points like 8P, precise calculations are necessary to determine the closest approach while avoiding obstacles.
+
+- To keep track of the paths traveled, otherwise, it might lead to retracing steps and result in infinite loops.
 
 
 ### Operational Workflow
